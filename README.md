@@ -1,2 +1,2 @@
-# Remote Controlled Car
-Dhruv Chopra
+# My projects
+Welcome to my website
