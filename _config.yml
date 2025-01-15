@@ -1,15 +1,4 @@
-title: "Your Blog Title"
-description: "A short description of your blog"
-baseurl: "" # Leave it blank if you're using the root directory
-url: "https://github.com/DhruvChopra1/Dhruv.github.io"  # Replace with your actual GitHub Pages URL
-
-# Set the remote theme to Lanyon
-remote_theme: pinder/jekyll-lanyon
-
-# Add any essential plugins (like SEO and Sitemap)
+remote_theme: poole/lanyon
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-# Optional: Enable pagination
-paginate: 5
