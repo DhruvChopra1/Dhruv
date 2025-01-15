@@ -17,10 +17,6 @@ plugins:
   - jekyll-commonmark-ghpages
   - jekyll-github-metadata
 
-# Other optional settings
-markdown: kramdown
-theme: github-pages
-
 navigation:
   - Home: /
   - About: /about
