@@ -20,3 +20,9 @@ plugins:
 # Other optional settings
 markdown: kramdown
 theme: github-pages
+
+navigation:
+  - Home: /
+  - About: /about
+  - Blog: /blog
+  - Archives: /archives
