@@ -1,11 +1,12 @@
-title: "My Awesome Blog"
+title: "My Blog"
 description: "A description of my blog"
 baseurl: "" # Leave blank for root
 url: "https://github.com/DhruvChopra1/Dhruv.github.io"  # Replace with your actual URL
 
-remote_theme: mmistakes/minimal-mistakes  # Correct remote theme
+# Specify remote theme source
+remote_theme: mmistakes/minimal-mistakes
 
-# Essential plugins for remote theme functionality
+# Plugins for GitHub Pages
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
@@ -15,3 +16,7 @@ plugins:
   - jekyll-gist
   - jekyll-commonmark-ghpages
   - jekyll-github-metadata
+
+# Optional configurations for customization
+paginate: 5
+theme: minimal-mistakes
