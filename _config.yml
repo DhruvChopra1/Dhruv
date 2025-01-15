@@ -1,21 +1,15 @@
-title: "My Blog"
-description: "A description of my blog"
-baseurl: "" # Leave blank for root
-url: "https://github.com/DhruvChopra1/Dhruv.github.io"  # Replace with your actual URL
+title: "Your Blog Title"
+description: "A short description of your blog"
+baseurl: "" # Leave it blank if you're using the root directory
+url: "https://github.com/DhruvChopra1/Dhruv.github.io"  # Replace with your actual GitHub Pages URL
 
-# Specify remote theme source
-remote_theme: mmistakes/minimal-mistakes
+# Set the remote theme to Lanyon
+remote_theme: pinder/jekyll-lanyon
 
-# Plugins for GitHub Pages
+# Add any essential plugins (like SEO and Sitemap)
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-commonmark-ghpages
-  - jekyll-github-metadata
 
-# Optional configurations for customization
+# Optional: Enable pagination
 paginate: 5
