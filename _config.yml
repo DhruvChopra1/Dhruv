@@ -1,4 +1,21 @@
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: mmistakes/minimal-mistakes
 plugins:
-  - jekyll-remote-theme
-title: hello
+  - jekyll-seo-tag
+  - jekyll-sitemap
+title: "Dhruv Chopra"
+description: "My Portfolio"
+author:
+  name: "Dhruv Chopra"
+  email: "1004382@pdsb.net"
+baseurl: "" # Leave blank for root
+url: "https://Dhruv.github.io" # Replace with your GitHub Pages URL
+
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social links (optional)
+social:
+  twitter: yourusername
+  github: yourusername
+  linkedin: yourusername
