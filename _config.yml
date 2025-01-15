@@ -1,14 +1,13 @@
-title: "My Blog"
+title: "My Awesome Blog"
 description: "A description of my blog"
-baseurl: "" # Leave blank for the root
-url: "https://github.com/DhruvChopra1/Dhruv.github.io" # Replace with your GitHub Pages URL
+baseurl: "" # Leave blank for root
+url: "https://github.com/DhruvChopra1/Dhruv.github.io"  # Replace with your actual URL
 
-# Specify the remote theme
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes  # Correct remote theme
 
-# GitHub Pages plugins (default set)
+# Essential plugins for remote theme functionality
 plugins:
-  - jekyll-remote-theme # Required for remote themes
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
@@ -16,9 +15,3 @@ plugins:
   - jekyll-gist
   - jekyll-commonmark-ghpages
   - jekyll-github-metadata
-
-navigation:
-  - Home: /
-  - About: /about
-  - Blog: /blog
-  - Archives: /archives
