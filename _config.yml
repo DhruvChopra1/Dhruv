@@ -1,4 +1,1 @@
 remote_theme: poole/lanyon
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
